@@ -56,7 +56,7 @@ a:visited{
 	width: 650px;
 	margin: 40px 40px 120px 156px;
 	background-color: white;
-	height: 450px;
+	overflow: hidden;
 }
 
 
@@ -160,4 +160,45 @@ input[type="Submit"]{
 	padding: 10px 20px;
 	position: relative;
 	bottom: 20px;
+}
+.portimg{
+	padding: 20px;
+	margin-left: 20px;
+}
+.wraper{
+	overflow: auto;
+}
+.hang{
+	position: absolute;
+	left: 341px;
+	top: 325px;
+}
+.rpg{
+	position: absolute;
+	top: 325px;
+	right: 614px;
+}
+.trivia{
+	position: absolute;
+	left: 341px;
+	top: 551px;
+}
+.widget{
+	position: absolute;
+	right: 614px;
+	top: 551px;
+}
+.rock{
+	position: absolute;
+	left: 341px;
+	top: 775px;
+}
+.trivia, .widget, .rock, .hang, .rpg{
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	width: 220px;
+	text-align: center;
+	height: 35px;
+	font-size: 20px;
 }
