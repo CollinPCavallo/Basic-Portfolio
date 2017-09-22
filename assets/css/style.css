@@ -17,7 +17,7 @@ h1{
 	text-align: center;
 	vertical-align: middle;
 	height: 60px;
-	background-color: #4aaaa5;
+	background-color: #4aaaa5 ;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding-top: 30px;
 
@@ -118,6 +118,9 @@ p{
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #777777;
+	position: relative;
+	bottom: 15px;
+	line-height: 40px;
 }
 h4{
 	position: relative;
@@ -178,7 +181,7 @@ input[type="Submit"]{
 .rpg{
 	position: absolute;
 	top: 325px;
-	right: 614px;
+	right: 602px;
 }
 .trivia{
 	position: absolute;
@@ -187,7 +190,7 @@ input[type="Submit"]{
 }
 .widget{
 	position: absolute;
-	right: 614px;
+	right: 602px;
 	top: 551px;
 }
 .rock{
